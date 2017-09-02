@@ -1,15 +1,14 @@
-# Multiple charts on single page
+# Multiple charts on single page. Chrome Extension.
 
 ## Installation
 1. Clone this project.
-2. Goto `chrome://extensions/` in new tab in chrome.
+2. Open new tab, goto `chrome://extensions/`.
 3. Select `Developer mode` checkbox.
 4. Press `Load unpacked extension...` button.
 5. Select project you just cloned.
 
-
 ## Usage
-Click on blue icon in upper right corner. This will open new page with charts.
+Click on blue icon in upper right corner. This will open a new page with charts.
 
 ## Customization
 To add/remove/etc charts edit `MARKETS` array in `symbols.js` file.
