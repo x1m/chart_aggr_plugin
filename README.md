@@ -1,7 +1,7 @@
 # Multiple charts on single page. Chrome Extension.
 
 ## Installation
-1. Clone this project.
+1. Clone this project `git clone https://github.com/x1m/chart_aggr_plugin`
 2. Open new tab, goto `chrome://extensions/`.
 3. Select `Developer mode` checkbox.
 4. Press `Load unpacked extension...` button.
@@ -14,8 +14,9 @@ Click on blue icon in upper right corner. This will open a new page with charts.
 To add/remove/etc charts edit `MARKETS` array in `symbols.js` file.
 
 To customize charts(time interval, timezone, etc) edit `widgets.js` file.
-Set the size of charts there.
+Set also the size of charts there.
 
 These links may also be useful:
+
 `https://www.tradingview.com/widget/`
 `https://www.tradingview.com/widget/advanced-chart/`
