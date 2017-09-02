@@ -1,10 +1,22 @@
 # Multiple charts on single page
 
 ## Installation
-1. Clone this project
-2. Goto `chrome://extensions/` in new tab in chrome
-3. Select `Developer mode` checkbox
-4. Press `Load unpacked extension...` button
-5. Select project you just cloned
+1. Clone this project.
+2. Goto `chrome://extensions/` in new tab in chrome.
+3. Select `Developer mode` checkbox.
+4. Press `Load unpacked extension...` button.
+5. Select project you just cloned.
 
-## Usage and Customization
+
+## Usage
+Click on blue icon in upper right corner. This will open new page with charts.
+
+## Customization
+To add/remove/etc charts edit `MARKETS` array in `symbols.js` file.
+
+To customize charts(time interval, timezone, etc) edit `widgets.js` file.
+Set the size of charts there.
+
+These links may also be useful:
+`https://www.tradingview.com/widget/`
+`https://www.tradingview.com/widget/advanced-chart/`

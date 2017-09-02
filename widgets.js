@@ -1,6 +1,7 @@
 new TradingView.widget({
   "width": 470,
   "height": 350,
+  //"autosize": true,
   "symbol": symbols.shift(),
   "interval": "30",
   "timezone": "Europe/Athens",
